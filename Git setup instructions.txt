@@ -1,0 +1,13 @@
+Go to the folder which you want to upload in github using Ctrl + Shift + Right Click - Then open git bash here
+
+git init
+git add readme.md
+git commit -m "My first github project"
+git branch -M main
+git remote add origin https://github.com/markmondoll/Django.git
+git push -u origin main
+
+
+git status
+git commit -m "Second upload"
+git push
